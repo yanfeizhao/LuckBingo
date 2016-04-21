@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+      android:background="#0000ffff" 
+    android:id="@+id/rl_dialog"
+   >
+<!-- android:background="@drawable/jiang_bg" -->
+    <TextView
+        android:id="@+id/tv_date_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="5dp"
+        android:text="2016-03-03 23:11:16"
+        android:textColor="#ffffffff" 
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/tv_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="5dp"
+        android:text="关闭"
+        android:textColor="#ffffffff" />
+
+    《
+    
+    <TextView
+        android:id="@+id/tv_tishi"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tv_close"
+        android:layout_margin="5dp"
+        android:paddingLeft="30dp"
+        android:paddingTop="30dp"
+        android:text="菲天萌逗恭喜您，中奖啦！！"
+        android:textColor="#ffffffff"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_luck_num"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tv_tishi"
+        android:layout_margin="5dp"
+        android:paddingLeft="30dp"
+        android:text="中奖号码为   ：   12，3，4，5，   请及时领取。"
+        android:textColor="#ffffffff"
+        android:textSize="20sp" />
+
+</RelativeLayout>

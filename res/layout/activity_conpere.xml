@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/lucky"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/luckybingo"
+            android:textColor="@color/main_btn_or_lucky"
+            android:textSize="@dimen/activity_other_lucky"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/lucky"
+            android:layout_alignParentRight="true"
+            android:layout_margin="10dp"
+            android:background="@drawable/button"
+            android:text="@string/reset" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#ffffff" />
+
+    <TextView
+        android:id="@+id/tv_animation_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="30dp"
+        android:background="@drawable/sucai24"
+        android:gravity="center"
+        android:text="23"
+        android:textSize="@dimen/activity_compere_num" />
+    
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/luckyNum"
+        android:textColor="@color/main_btn_or_lucky"
+        android:textSize="@dimen/activity_compere"
+        />
+      <TextView
+         android:id="@+id/tv_showLucyNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:text=""
+        android:textColor="@color/main_btn_or_lucky"
+        android:textSize="@dimen/activity_lucky_num"
+        />
+
+</LinearLayout>

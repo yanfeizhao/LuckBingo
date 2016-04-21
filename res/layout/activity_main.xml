@@ -1,0 +1,142 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/text_lucky"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/luckybingo"
+        android:textColor="@color/main_btn_or_lucky"
+        android:textSize="@dimen/activity_main_lucky" 
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:id="@+id/center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="15dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/datasize"
+                android:textColor="@color/main_text_or_copyright"
+                android:textSize="@dimen/activity_main_text" />
+
+             <TextView
+                android:id="@+id/tv_datasize_sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:layout_weight="0.1"
+                android:text="32"               
+                android:gravity="center"
+                android:textSize="@dimen/activity_main_text"
+                android:background="#55000000"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" 
+            android:layout_marginBottom="15dp">
+
+            <TextView
+                android:id="@+id/actor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/activityactor"
+                android:textColor="@color/main_text_or_copyright"
+                android:textSize="@dimen/activity_main_text" />
+            
+            
+            <TextView
+                android:id="@+id/tv_actor_sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:layout_weight="0.1"
+                android:text="主持人"               
+                android:gravity="center"
+                android:textSize="@dimen/activity_main_text"
+                android:background="#55000000"/>
+
+            
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="15dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/countOfCard"
+                android:textColor="@color/main_text_or_copyright"
+                android:textSize="@dimen/activity_main_text" />
+
+             <TextView
+                android:id="@+id/tv_countOfCard_sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:layout_weight="0.1"
+                android:text="1"               
+                android:gravity="center"
+                android:textSize="@dimen/activity_main_text"
+                android:background="#55000000"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/center"
+        android:orientation="horizontal"
+        android:layout_alignRight="@id/center"
+        android:layout_marginBottom="15dp">
+
+        <Button
+            android:id="@+id/btn_sure"
+            android:text="@string/sure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/main_btn_or_lucky" />
+
+        <Button
+            android:id="@+id/btn_exit"
+            android:text="@string/exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+             android:textColor="@color/main_btn_or_lucky" />
+    </LinearLayout>
+    
+    <TextView
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/copyright"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@id/center"
+        />
+
+</RelativeLayout>

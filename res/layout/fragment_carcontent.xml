@@ -1,0 +1,381 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <!-- 第一行 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <CheckBox
+            android:id="@+id/cb_1_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/uncheckcb"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="center"
+            android:text="22"
+            android:textSize="@dimen/card_num" />
+
+        <CheckBox
+            android:id="@+id/cb_1_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/uncheckcb"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="center"
+            android:text="@string/hello_world"
+             android:textSize="@dimen/card_num"  />
+
+        <CheckBox
+            android:id="@+id/cb_1_3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/uncheckcb"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="center"
+            android:text="@string/hello_world"
+             android:textSize="@dimen/card_num"  />
+
+        <CheckBox
+            android:id="@+id/cb_1_4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/uncheckcb"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="center"
+            android:text="@string/hello_world"
+             android:textSize="@dimen/card_num"  />
+
+        <CheckBox
+            android:id="@+id/cb_1_5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/uncheckcb"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="center"
+            android:text="@string/hello_world" 
+             android:textSize="@dimen/card_num" />
+    </LinearLayout>
+
+    <!-- 第2行 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <CheckBox
+            android:id="@+id/cb_2_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/uncheckcb"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="center"
+            android:text="@string/hello_world" 
+             android:textSize="@dimen/card_num" />
+
+        <CheckBox
+            android:id="@+id/cb_2_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/uncheckcb"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="center"
+            android:text="@string/hello_world" 
+             android:textSize="@dimen/card_num" />
+
+        <CheckBox
+            android:id="@+id/cb_2_3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/uncheckcb"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="center"
+            android:text="@string/hello_world" 
+             android:textSize="@dimen/card_num" />
+
+        <CheckBox
+            android:id="@+id/cb_2_4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/uncheckcb"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="center"
+            android:text="@string/hello_world"
+             android:textSize="@dimen/card_num"  />
+
+        <CheckBox
+            android:id="@+id/cb_2_5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/uncheckcb"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="center"
+            android:text="@string/hello_world"
+             android:textSize="@dimen/card_num"  />
+    </LinearLayout>
+
+    <!-- 第3行 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <CheckBox
+            android:id="@+id/cb_3_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/uncheckcb"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="center"
+            android:text="@string/hello_world" 
+             android:textSize="@dimen/card_num" />
+
+        <CheckBox
+            android:id="@+id/cb_3_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/uncheckcb"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="center"
+            android:text="@string/hello_world"
+             android:textSize="@dimen/card_num"  />
+
+        <CheckBox
+            android:id="@+id/cb_3_3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/checkcb"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:text="幸运" 
+            android:textColor="#ffffff"
+             android:textSize="30sp" />
+
+        <CheckBox
+            android:id="@+id/cb_3_4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/uncheckcb"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="center"
+            android:text="@string/hello_world" 
+             android:textSize="@dimen/card_num" />
+
+        <CheckBox
+            android:id="@+id/cb_3_5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/uncheckcb"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="center"
+            android:text="@string/hello_world"
+ android:textSize="@dimen/card_num" />
+    </LinearLayout>
+
+    <!-- 第4行 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+         >
+
+        <CheckBox
+            android:id="@+id/cb_4_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/uncheckcb"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="center"
+            android:text="@string/hello_world" 
+             android:textSize="@dimen/card_num" />
+
+        <CheckBox
+            android:id="@+id/cb_4_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/uncheckcb"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="center"
+            android:text="@string/hello_world"
+             android:textSize="@dimen/card_num"  />
+
+        <CheckBox
+            android:id="@+id/cb_4_3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/uncheckcb"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="center"
+            android:text="@string/hello_world" 
+             android:textSize="@dimen/card_num" />
+
+        <CheckBox
+            android:id="@+id/cb_4_4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/uncheckcb"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="center"
+            android:text="@string/hello_world" 
+             android:textSize="@dimen/card_num" />
+
+        <CheckBox
+            android:id="@+id/cb_4_5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/uncheckcb"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="center"
+            android:text="@string/hello_world"
+             android:textSize="@dimen/card_num"  />
+    </LinearLayout>
+
+    <!-- 第5行 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <CheckBox
+            android:id="@+id/cb_5_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/uncheckcb"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="center"
+            android:text="@string/hello_world" 
+             android:textSize="@dimen/card_num" />
+
+        <CheckBox
+            android:id="@+id/cb_5_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/uncheckcb"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="center"
+            android:text="@string/hello_world"
+             android:textSize="@dimen/card_num"  />
+
+        <CheckBox
+            android:id="@+id/cb_5_3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/uncheckcb"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="center"
+            android:text="@string/hello_world" 
+             android:textSize="@dimen/card_num" />
+
+        <CheckBox
+            android:id="@+id/cb_5_4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/uncheckcb"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="center"
+            android:text="@string/hello_world"
+             android:textSize="@dimen/card_num"  />
+
+        <CheckBox
+            android:id="@+id/cb_5_5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/uncheckcb"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="center"
+            android:text="@string/hello_world" 
+             android:textSize="@dimen/card_num" />
+    </LinearLayout>
+
+</LinearLayout>

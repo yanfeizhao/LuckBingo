@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <dimen name="activity_main_text">20sp</dimen>
+    <dimen name="activity_main_btn">15sp</dimen>
+    <dimen name="activity_main_spinner_item">15sp</dimen>
+    <dimen name="activity_main_lucky">50sp</dimen>
+     <dimen name="activity_other_lucky">30sp</dimen>
+    <dimen name="activity_main_copyright">10sp</dimen>
+    
+    <!-- 主持人旋转的textView中的数字的大小 -->
+     <dimen name="activity_compere_num">150sp</dimen>
+    
+      <!-- 主持人页面，textView里"幸运数字是："几个字的大小-->
+     <dimen name="activity_compere">20sp</dimen>
+     
+      <!-- 主持人页面，textView里显示的数字的大小-->
+     <dimen name="activity_lucky_num">30sp</dimen>
+     
+     <!-- 抽奖人页面 -->
+     <dimen name="card">20sp</dimen>
+     <dimen name="card_num">40sp</dimen>
+    
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LuckBingoFly</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- 主页面中的字符串 -->
+    <string name="luckybingo">LuckyBingo</string>
+    <string name="datasize">数值范围：</string>
+    <string name="countOfCard">卡片数量：</string>
+    <string name="activityactor">活动角色：</string>
+    <string name="sure">确定</string>
+    <string name="exit">退出</string>
+    <string name="copyright">版权所有：菲天萌逗</string>
+
+    <!-- 主持人选取幸运数字的页面 -->
+    <string name="reset">重置</string>
+    <string name="luckyNum">幸运数字为：</string>
+
+    <!-- 抽奖的页面 -->
+    <string name="getaward">领奖</string>
+    <string name="cardone">卡片一</string>
+    <string name="cardtwo">卡片二</string>
+    <string name="cardthree">卡片三</string>
+    <string name="lucky">幸运</string>
+
+</resources>
